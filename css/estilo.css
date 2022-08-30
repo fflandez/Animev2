@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #221f21;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: auto;
+}
+
+html {
+  height: 100%;
+  width: auto;
+}
+
+/*header sass*/
+.header .animado {
+  background-color: rgb 208, 189, 225;
+  height: 30px;
+  width: 13rem;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+}
+.header .animado {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    color: aqua;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    color: aqua;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.header img {
+  width: 100px;
+  border-radius: 50%;
+}
+.header .a {
+  color: blue;
+}
+.header .a:hover {
+  color: aqua;
+}
+.header .navbar {
+  background-color: #4d0b65;
+  padding: 20px;
+}
+.header .navbar-nav {
+  font-size: 1rem;
+  font-weight: 900;
+  gap: 25px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  color: aqua;
+}
+.header .nav-link {
+  color: aqua;
+}
+.header .nav-link {
+  color: aqua;
+}
+.header .nav-link:hover {
+  color: #e42e89;
+  transition: 0.5s;
+}
+
+/*Fin header*/
+/*Entre header y main Bievenidos*/
+.ani {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  font-family: "Rubik Burned", cursive;
+}
+
+.ani {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    color: aqua;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/*Fin Entre header y main Bievenidos*/
+/*Inicio main*/
+main .texto {
+  display: flex;
+  background-color: #4d0b65;
+  color: aqua;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+}
+main .card {
+  background-color: #4d0b65;
+}
+main .row {
+  gap: 70px;
+  justify-content: center;
+  color: aqua;
+  font-family: "Anton", sans-serif;
+}
+main .anima {
+  color: black;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Rubik Burned", cursive;
+}
+main .anima {
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    color: aqua;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+main .card_ {
+  background-color: white;
+}
+main .row_ {
+  gap: 20px;
+  justify-content: center;
+  color: black;
+  font-family: "Anton", sans-serif;
+}
+main .card_ {
+  background-color: white;
+}
+main .img-fluid {
+  background-color: white;
+  transition: 1s;
+  -webkit-animation-name: galeria;
+          animation-name: galeria;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: inherit;
+          animation-iteration-count: inherit;
+}
+@-webkit-keyframes galeria {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    color: white;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes galeria {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    color: white;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+main img {
+  width: 500px;
+  padding: 5px;
+  margin: 1rem;
+  background-position: center;
+  border-radius: 50px;
+}
+main main .img_ {
+  width: 500px;
+  padding: 5px;
+  margin: 1rem;
+  background-position: center;
+  border-radius: 1px;
+}
+main img {
+  color: black;
+}
+main img:hover {
+  background-color: aqua;
+}
+main .col {
+  color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*fin main*/
+/*pages contacto main*/
+#contacto h3 {
+  color: aqua;
+  text-align: center;
+}
+
+#contacto .form-label {
+  padding: 1px;
+  color: aqua;
+}
+
+#contacto .mb-3 {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+/*Inicio footer*/
+footer {
+  display: flex;
+  background-color: #4d0b65;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+footer .contenedor {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+footer .texto {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 10;
+  color: aqua;
+  margin-top: 20px;
+  margin-left: 1px;
+  margin-bottom: 1px;
+  padding-left: 10px;
+}
+footer img {
+  width: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  border-radius: 50px;
+  padding: 1px;
+  list-style: none;
+}
+footer .redes {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding-right: 30px;
+  list-style: none;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+footer .anim {
+  display: flex;
+  width: 30%;
+  padding: 1rem;
+  color: aqua;
+}
+footer .anim {
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    color: aqua;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+footer .ms-3 {
+  color: white;
+}
+footer .ms-3:hover {
+  color: aqua;
+  transition: all 0.5s;
+  opacity: 30%;
+}
+
+/*Fin footer*/

@@ -1,0 +1,91 @@
+/*header sass*/
+
+.header {
+    .animado {
+      background-color: rgb 208, 189, 225;
+      height: 30px;
+      width: 13rem;
+      text-align: center;
+      font-family: "Anton", sans-serif;
+    }
+    .animado {
+      animation-duration: 3s;
+      animation-name: aparecer;
+      animation-iteration-count: infinite;
+    }
+    @keyframes aparecer {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+        color: aqua;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+    img {
+      width: 100px;
+      border-radius: 50%;
+    }
+    .a {
+      color: blue;
+      &:hover {
+        color: aqua;
+      }
+    }
+    .navbar {
+      background-color:$navbar;
+      padding: 20px;
+    }
+    .navbar-nav {
+      font-size: 1rem;
+      font-weight: 900;
+      gap: 25px;
+      margin-bottom: 15px;
+      margin-top: 25px;
+      color: aqua;
+    }
+    .nav-link {
+      color: aqua;
+    }
+    .nav-link {
+      color: aqua;
+      &:hover {
+        color:$navlink;
+        transition: 0.5s;
+      }
+    }
+  }
+  
+  /*Fin header*/
+  
+  /*Entre header y main Bievenidos*/
+  .ani {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-family: "Rubik Burned", cursive;
+  }
+  .ani {
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      color: aqua;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /*Fin Entre header y main Bievenidos*/
+  

@@ -1,23 +1,23 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  $colorbody:#221f21;
-  $navlink:#e42e89;
-  $navbar:#4d0b65;
-  
-  
-  body {
-    background-color: $colorbody;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100%;
-    width: auto;
-  }
-  
-  html {
-    height: 100%;
-    width: auto;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$colorbody:#221f21;
+$navlink:#e42e89;
+$navbar:#4d0b65;
+
+
+body {
+  background-color: $colorbody;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: auto;
+}
+
+html {
+  height: 100%;
+  width: auto;
+}

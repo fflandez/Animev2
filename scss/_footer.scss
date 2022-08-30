@@ -1,78 +1,77 @@
 /*Inicio footer*/
 
 footer {
+  display: flex;
+  background-color: #4d0b65;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  .contenedor {
     display: flex;
-    background-color: #4d0b65;
     width: 100%;
-    text-align: center;
+    height: 100%;
+  }
+  .texto {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 10;
+    color: aqua;
+    margin-top: 20px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    padding-left: 10px;
+  }
+  img {
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    border-radius: 50px;
+    padding: 1px;
+    list-style: none;
+  }
+  .redes {
+    display: flex;
     align-items: center;
-    .contenedor {
-      display: flex;
-      width: 100%;
-      height: 100%;
+    margin-left: auto;
+    padding-right: 30px;
+    list-style: none;
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+  .anim {
+    display: flex;
+    width: 30%;
+    padding: 1rem;
+    color: aqua;
+  }
+  .anim {
+    animation-duration: 5s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+  }
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
     }
-    .texto {
-      font-family: Arial, Helvetica, sans-serif;
-      text-align: left;
-      font-size: 1rem;
-      font-weight: 10;
-      color: aqua;
-      margin-top: 20px;
-      margin-left: 1px;
-      margin-bottom: 1px;
-      padding-left: 10px;
-    }
-    img {
-      width: 40px;
-      margin-top: 10px;
-      margin-left: 10px;
-      margin-right: 10px;
-      margin-bottom: 1px;
-      border-radius: 50px;
-      padding: 1px;
-      list-style: none;
-    }
-    .redes {
-      display: flex;
-      align-items: center;
-      margin-left: auto;
-      padding-right: 30px;
-      list-style: none;
-      margin-top: 2px;
-      margin-bottom: 10px;
-    }
-    .anim {
-      display: flex;
-      width: 30%;
-      padding: 1rem;
+    50% {
+      opacity: 1;
       color: aqua;
     }
-    .anim {
-      animation-duration: 5s;
-      animation-name: aparecer;
-      animation-iteration-count: infinite;
-    }
-    @keyframes aparecer {
-      0% {
-        opacity: 0;
-      }
-      50% {
-        opacity: 1;
-        color: aqua;
-      }
-      100% {
-        opacity: 0;
-      }
-    }
-    .ms-3 {
-      color: white;
-      &:hover {
-        color: aqua;
-        transition: all 0.5s;
-        opacity: 30%;
-      }
+    100% {
+      opacity: 0;
     }
   }
-  
-  /*Fin footer*/
-  
+  .ms-3 {
+    color: white;
+    &:hover {
+      color: aqua;
+      transition: all 0.5s;
+      opacity: 30%;
+    }
+  }
+}
+
+/*Fin footer*/

@@ -62,13 +62,15 @@
   /*Fin header*/
   
   /*Entre header y main Bievenidos*/
-  .ani {
+  .ani  {
+    @extend.ani;
     color: white;
     text-align: center;
     font-weight: 300;
     font-family: "Rubik Burned", cursive;
   }
   .ani {
+    @extend.ani;
     animation-duration: 3s;
     animation-name: aparecer;
     animation-iteration-count: infinite;
@@ -88,4 +90,3 @@
   }
   
   /*Fin Entre header y main Bievenidos*/
-  

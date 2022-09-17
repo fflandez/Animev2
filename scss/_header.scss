@@ -58,6 +58,32 @@
       }
     }
   }
+  .text-justify {
+    font-family: "Anton", sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    color:aqua;
+    line-height: 1.6;
+  }
+  
+  .subtitulos {
+    text-decoration: none;
+    color: white;
+    font-family: "Rubik Burned", cursive;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 35px;
+  }
+  .row
+  {
+    background-image: url();
+    background: 100%;
+  }
+  .row :hover{
+    filter: saturate(130%);
+    background-size: 110%;
+   
+  }
   
   /*Fin header*/
   

@@ -88,6 +88,33 @@ html {
   transition: 0.5s;
 }
 
+.text-justify {
+  font-family: "Anton", sans-serif;
+  font-style: italic;
+  font-size: 25px;
+  color: aqua;
+  line-height: 1.6;
+}
+
+.subtitulos {
+  text-decoration: none;
+  color: white;
+  font-family: "Rubik Burned", cursive;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 35px;
+}
+
+.row {
+  background-image: url();
+  background: 100%;
+}
+
+.row :hover {
+  filter: saturate(130%);
+  background-size: 110%;
+}
+
 /*Fin header*/
 /*Entre header y main Bievenidos*/
 .ani {
@@ -216,7 +243,7 @@ main img {
   border-radius: 50px;
 }
 main main .img_ {
-  width: 500px;
+  width: 100px;
   padding: 5px;
   margin: 1rem;
   background-position: center;
@@ -232,7 +259,48 @@ main .col {
   color: aqua;
   font-family: Arial, Helvetica, sans-serif;
 }
+main .img_2 {
+  width: 400px;
+  padding: 1px;
+  margin: 1rem;
+  background-position: center;
+  border-radius: 1px;
+  align-items: center;
+}
+main .img_2 {
+  color: black;
+}
+main .img_2:hover {
+  background-color: #4d0b65;
+}
 
+main .galeria1 {
+  background-color: #4d0b65;
+  height: auto;
+  width: auto;
+  grid-area: galeria1;
+}
+
+main .galeria2 {
+  background-color: #e42e89;
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: auto;
+}
+
+#imagen-dividida {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+  .galeria1 {
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    grid-template-areas: "galeria1";
+  }
+}
 /*fin main*/
 /*pages contacto main*/
 #contacto h3 {
